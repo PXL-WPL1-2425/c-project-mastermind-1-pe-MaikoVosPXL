@@ -58,6 +58,7 @@ namespace mastermindPEMaikoVosWpf
             randomColorFour = PickingRandomColor(rnd.Next(0, 6));
 
             this.Title = $"MasterMind: Poging:{attempts}";
+
             randomNumberColor = $"{randomColorOne}, {randomColorTwo}, {randomColorThree}, {randomColorFour}";
         }
 
