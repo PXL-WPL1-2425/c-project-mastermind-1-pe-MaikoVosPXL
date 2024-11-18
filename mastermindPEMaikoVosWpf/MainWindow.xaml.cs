@@ -174,6 +174,7 @@ namespace mastermindPEMaikoVosWpf
 
 
             randomColorNames.Text = $"{randomNumberColor}";
+
             this.Title = $"MasterMind: Poging:{attempts++}";
 
         }
