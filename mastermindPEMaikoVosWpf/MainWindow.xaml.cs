@@ -172,6 +172,7 @@ namespace mastermindPEMaikoVosWpf
             timer.Start();
             clicked = DateTime.Now;
 
+
             randomColorNames.Text = $"{randomNumberColor}";
             this.Title = $"MasterMind: Poging:{attempts++}";
 
